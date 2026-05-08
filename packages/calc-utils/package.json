@@ -1,0 +1,26 @@
+{
+  "name": "@bonham/calc-utils",
+  "version": "1.0.0",
+  "description": "Math utility functions",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "math",
+    "utilities"
+  ],
+  "author": "",
+  "license": "ISC"
+}

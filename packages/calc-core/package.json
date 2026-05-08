@@ -1,0 +1,26 @@
+{
+  "name": "@bonham/calc-core",
+  "version": "1.0.0",
+  "description": "Calculator class for basic math operations",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "calculator",
+    "math"
+  ],
+  "author": "",
+  "license": "ISC"
+}
